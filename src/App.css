@@ -4,13 +4,19 @@
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+h1{
+    text-align: center;
+    color: #fff;
+}
 
-.App{
+input{
+    color: rgb(32, 32, 32);
+}
+
+.app{
     background: #1c0131;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    padding: 2em 0;
+    padding: 2em;
 }
 
 .title{
@@ -21,7 +27,7 @@
 .form{
     border: 1px solid #410272;
     border-radius: 1em;
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -29,16 +35,19 @@
 }
 
 input{
-    width: 80%;
+    width: 100%;
     padding: 0.6em;
     margin: 4em 0 0.8em 0;
     border-radius: 0.4em;
     border: none;
     outline: none;
 }
+input:nth-of-type(2){
+    margin: 0 0 0.8em 0;
+}
 
 button{
-    width: 80%;
+    width: 100%;
     padding: 0.5em;
     color: #fff;
     background: #4c0383;
@@ -48,23 +57,24 @@ button{
 }
 
 .todos-list{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: 2em auto;
-}
-
-.todos-list{
     background: #240c37;
     color: rgb(169, 166, 166);
-    padding: 1em .5em;
+    padding: 1em .8em;
     border-radius: .4em;
     font-size: .7em;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin: .8em 0;
     border-left: 2px solid #066f0a;
 }
 
 .done{
     border-left: 2px solid #6f0906;
+}
+
+form{
+    margin-bottom: 3em;
 }
 
 

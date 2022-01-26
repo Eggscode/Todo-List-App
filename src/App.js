@@ -1,12 +1,14 @@
+import AddTodos from './AddTodos';
 import './App.css';
-import Form from './Form'
 
-function App() {
-  return (
-    <div className="App">
-      <Form/>
+function App(){
+  
+   return(
+    <div className='app'>
+      <AddTodos/>
     </div>
   );
-} 
+};
 
 export default App;
+

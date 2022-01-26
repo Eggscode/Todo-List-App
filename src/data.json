@@ -1,0 +1,29 @@
+[
+   {"id":"2",
+    "title":"Kroka fish",
+    "category":"frozen",
+    "price":"#1300",
+    "img":"./images/kroka.jpeg"
+    },
+
+    {"id":"3",
+    "title":"Titus fish",
+    "category":"frozen",
+    "price":"#1600",
+    "img":"./images/kroka.jpeg"
+    },
+
+    {"id":"4",
+    "title":"Chicken",
+    "category":"frozen",
+    "price":"#2000",
+    "img":"./images/kroka.jpeg"
+    },
+
+    {"id":"5",
+    "title":"Kpanla",
+    "category":"frozen",
+    "price":"#900",
+    "img":"./images/kroka.jpeg"
+    }
+]
